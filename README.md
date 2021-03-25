@@ -2,8 +2,6 @@
 
 A Node.js server to connect to Amara API so we can avoid CORS policy. 
 
-The local server is publicly-exposed to the Internet by using [ngrok](https://ngrok.com/) 
-
 ## Set up
 
 Navigate into the `amara-api-proxy` directory 
@@ -23,8 +21,6 @@ Start the server
 ```sh
 npm start
 ```
-
-After running the command you will see in the terminal  a ngrok url  from where the proxy api is being served.
 
 ## Structure
 
